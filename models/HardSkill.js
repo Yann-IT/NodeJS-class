@@ -5,4 +5,4 @@ const hardskillSchema = mongoose.Schema({
     description:{type:String, require:true}
 });
 
-module.exports= mongoose.model("HardSkill", hardskillSchema);
+module.exports= mongoose.model("HardSkills", hardskillSchema);

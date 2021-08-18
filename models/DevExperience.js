@@ -8,4 +8,4 @@ const devexperienceSchema = mongoose.Schema({
     date:{type:String, require:true}
 });
 
-module.exports= mongoose.model("DevExp", devexperienceSchema);
+module.exports= mongoose.model("DevExps", devexperienceSchema);

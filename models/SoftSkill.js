@@ -5,4 +5,4 @@ const softskillSchema = mongoose.Schema({
     description:{type:String, require:true}
 });
 
-module.exports= mongoose.model("SoftSkill", softskillSchema);
+module.exports= mongoose.model("SoftSkills", softskillSchema);
